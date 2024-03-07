@@ -2,16 +2,4 @@
 # This script groups visitors by IP and HTTP status code,
 # and displays this data
 
-awk '
-BEGIN {
-    FS=" ";
-}
-{
-    key=$1 " " $9;
-    data[key]++;
-}
-END {
-    for (key in data) {
-        print data[key], key;
-    }
-}' apache-access.log | sort -nr
+awk '{a[$1 " " $9]++;} END {for (ip in a)print a[ip], ip};' apache-access.log | sort -nr
