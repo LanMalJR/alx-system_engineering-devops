@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Displays best school 10x except for the 9th iteration which says Hi
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 8 ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+
+	(( i++ ))
+done
