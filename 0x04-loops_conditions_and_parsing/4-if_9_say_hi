@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 # Displays best school 10x except for the 9th iteration which says Hi
 
-i = 0
-while [$i-lt 10]
+CNTr = 0
+while [$CNTr-lt 11]
 do
-	if [$i-eq 8]
-	then
-	echo "Hi"
-	else
-	echo "Best School"
-	fi
-
-	(( i++ ))
+if [$CNTr = 9]
+    then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    let CNTr+=1
 done
