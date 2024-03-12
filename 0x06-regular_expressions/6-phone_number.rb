@@ -1,14 +1,16 @@
-#!/bin/bash
+#!/usr/bin/env ruby
 
 # Check if the argument is provided
-if [ -z "$1" ]; then
-    echo "Usage: $0 <phone_number>"
+if ARGV.length != 1
+    puts "Usage: #{$0} <phone_number>"
     exit 1
-fi
+end
+
+phone_number = ARGV[0].strip
 
 # Check if the phone number matches the regular expression
-if [[ $1 =~ ^[[:space:]]*([0-9]{10})[[:space:]]*$ ]]; then
-    echo "${BASH_REMATCH[1]}"
+if phone_number =~ /\A\d{10}\z/
+    puts phone_number
 else
-    echo "Invalid phone number"
-fi
+    puts "Invalid phone number"
+end
