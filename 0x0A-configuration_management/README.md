@@ -1,4 +1,4 @@
-#
+# 0x0A-configuration_management
 ### Task 0. Create a file
 - **File:** `0-create_a_file.pp`
 - **Descrip:** Using Puppet, create a file in `*/tmp.*`
