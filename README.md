@@ -11,3 +11,4 @@ This readme contains all the links to files in this repo.
 8. [0x07-networking_basics](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x07-networking_basics)
 9. [0x08-networking_basics_2](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x08-networking_basics_2)
 10. [0x0A-configuration_management](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0A-configuration_management)
+11. [0x0B-ssh](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0B-ssh)
