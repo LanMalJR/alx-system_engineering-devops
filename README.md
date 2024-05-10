@@ -13,3 +13,4 @@ This readme contains all the links to files in this repo.
 10. [0x0A-configuration_management](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0A-configuration_management)
 11. [0x0B-ssh](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0B-ssh)
 12. [0x0C-web_server](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0C-web_server)
+13. [0x0D-web_stack_debugging_0](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0)
