@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# This script configures Nginx so that its HTTP response contains a custom header named "X-Served-By"
+
+sudo apt update
+sudo apt install nginx -y
+
+echo "
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /var/www/html;
+
+	index index.html index.nginx-debian.html;
+
+	server_name _;
+	add_header X-Served-By \$hostname;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}
+" | sudo tee /etc/nginx/sites-available/default
+
+sudo service nginx restart
