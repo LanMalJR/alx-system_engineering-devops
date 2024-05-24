@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script is for a bug fix for nginx
+
+sudo service nginx restart
