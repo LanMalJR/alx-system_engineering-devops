@@ -9,5 +9,3 @@ echo "Hello World!" > /usr/share/nginx/html/index.html
 
 # Restart nginx
 service nginx restart
-
-# End of script
