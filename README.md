@@ -19,3 +19,4 @@ This readme contains all the links to files in this repo.
 16. [0x0E-web_stack_debugging_1](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x0E-web_stack_debugging_1)
 17. [0x10-https_ssl](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x10-https_ssl)
 18. [0x12-web_stack_debugging_2](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x12-web_stack_debugging_2)
+19. [0x14-mysql](https://github.com/LanMalJR/alx-system_engineering-devops/tree/master/0x14-mysql)
