@@ -1,8 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# This script is for a bug fix for nginx
 
-apt-get update
-apt-get install -y nginx
-service nginx stop
-service nginx start
-curl -s 0:80 && echo "Nginx is running" || echo "Nginx is not running"
+sudo service nginx restart
 
