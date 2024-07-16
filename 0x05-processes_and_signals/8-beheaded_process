@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script kills task 7's process
+
+task_7_pid=$(pgrep -f "./7-highlander")
+
+kill -9 "$task_7_pid"
