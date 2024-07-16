@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# This script displays information about subdomains
+
+display_subdomain_info() {
+	local domain="$1"
+	local subdomain="$2"
+	local subs=("www" "lb-01" "web-01" "web-02")
+
+	if [ -z "$subdomain" ]; then
+		for sub in "${subs[@]}"
+		do
+			full_url="$sub.$domain"
+			sub_domain="$sub"
+			record_type=$(dig $full_url | awk -v var="^$full_url" '$0 ~ var {print $4}')
+			destination=$(dig $full_url | awk -v var="^$full_url" '$0 ~ var {print $5}')
+			echo "The subdomain $sub_domain is a $record_type record and points to $destination"
+		done
+	else
+		full_url="$2.$domain"
+		record_type=$(dig $full_url | awk -v var="^$full_url" '$0 ~ var {print $4}')
+		destination=$(dig $full_url | awk -v var="^$full_url" '$0 ~ var {print $5}')
+		echo "The subdomain $subdomain is a $record_type record and points to $destination"
+	fi
+}
+
+display_subdomain_info $1 $2

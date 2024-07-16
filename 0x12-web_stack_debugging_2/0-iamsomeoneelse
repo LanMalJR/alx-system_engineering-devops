@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script runs the command whoami as another user
+
+if [ -z "$1" ]; then
+	whoami
+else
+	sudo -u "$1" whoami
+fi
