@@ -9,3 +9,6 @@ This directory focuses on server debugging
 ### Task 1: Run Nginx as Nginx
 - **File:** `1-run_nginx_as_nginx`
 - **Description:** Fix this container so that Nginx is running as the `nginx` user
+
+### Task 2: 7 lines or less
+- **File:** `100-fix_in_7_lines_or_less`
