@@ -3,7 +3,7 @@
 This script uses a REST API to retrieve information
 about an employees TODO list progress
 '''
-
+import json
 from requests import get
 from sys import argv
 
