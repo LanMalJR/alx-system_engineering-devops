@@ -4,8 +4,8 @@ This script uses a REST API to retrieve information
 about an employees TODO list progress
 '''
 
-from requests import get
 from sys import argv
+from requests import get
 
 if __name__ == '__main__':
     id = argv[1]
