@@ -40,4 +40,3 @@ def recurse(subreddit, hot_list=[], after_token=None):
         return recurse(subreddit, hot_list, after_token)
     else:
         return None
-    
