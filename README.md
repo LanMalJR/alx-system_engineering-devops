@@ -23,3 +23,4 @@
 22. [0x14-mysql](https://github.com/LanMalJR/alx-higher_level_programming/tree/0x14-mysql)
 23. [0x15-api](https://github.com/LanMalJR/alx-higher_level_programming/tree/0x15-api)
 24. [0x16-api_advanced](https://github.com/LanMalJR/alx-higher_level_programming/tree/0x16-api_advanced)
+25. [0x17-web_stack_debugging_3](https://github.com/LanMalJR/alx-higher_level_programming/tree/0x17-web_stack_debugging_3)
