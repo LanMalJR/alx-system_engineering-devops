@@ -3,4 +3,3 @@
   path    => ['/bin', '/usr/bin'],
   unless  => '/bin/grep -q ".phpp" /var/www/html/wp-settings.php',
 }
-
